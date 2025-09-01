@@ -6,7 +6,7 @@ import numpy as np
 
 matplotlib.rcParams['figure.figsize'] = (10, 6)
 
-df = pd.read_csv(r'C:\Users\SESA610197\Documents\AIMLLNG\ML\Feature Engineering\Outlier detection and Removal using zscore and std dev\heights.csv')
+df = pd.read_csv('heights.csv')
 print(df)
 
 plt.hist(df.height, bins=20, rwidth=0.8)
