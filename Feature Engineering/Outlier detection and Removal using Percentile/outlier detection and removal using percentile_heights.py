@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r'C:\Users\SESA610197\Documents\AIMLLNG\ML\Feature Engineering\Outlier detection and Removal using Percentile\heights.csv')
+df = pd.read_csv('heights.csv')
 print(df)
 
 max_threshold = df['height'].quantile(0.95)
