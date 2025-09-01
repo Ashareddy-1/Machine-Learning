@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r'C:\Users\SESA610197\Documents\AIMLLNG\ML\Feature Engineering\Outlier detection and Removal using Percentile\bhp.csv')
+df = pd.read_csv('bhp.csv')
 print(df)
 
 print(df.describe())
