@@ -5,7 +5,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\SESA610197\Documents\AIMLLNG\ML\Feature Engineering\Outlier detection and Removal using Percentile\Exercise\AB_NYC_2019.csv')
+df = pd.read_csv('AB_NYC_2019.csv')
 print(df)
 
 print(df.price.describe())
